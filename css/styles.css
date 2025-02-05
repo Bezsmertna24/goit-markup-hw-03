@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
     
 }
  ul {
@@ -16,9 +17,6 @@ body {
 }
 
 .hero-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
     color: #4d5ae5;
 }
 
@@ -149,7 +147,6 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    text-transform: uppercase;
     color: #f4f4fd;
     text-decoration: none;
 }
@@ -157,14 +154,11 @@ button {
 .footer-logo {
     font-weight: 700;
     font-size: 18px;
-    text-transform: uppercase;
     color: #4d5ae5;
 }
 
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
