@@ -16,12 +16,16 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.16;
     color: #2e2f42;
-    text-decoration: none;
 }
 
 .hero-logo {
     color: #4d5ae5;
+    font-family: 'Ralawey', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
 }
 
 
@@ -32,6 +36,10 @@ body {
     color: #2e2f42;
 
 }
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #404bbf;
+}
 
 /* contacts */
 .contacts {
@@ -39,9 +47,11 @@ body {
 }
 
 .contacts-link {
+    font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
 }
 
 
@@ -55,6 +65,7 @@ body {
     font-size: 56px;
     text-align: center;
     color:#ffffff;
+    line-height: 1.07;
 }
 
 button {
@@ -87,12 +98,14 @@ button {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
+    line-height: 1.2;
 }
 
 
 .text {
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
 }
 
 
@@ -106,18 +119,24 @@ button {
     font-size: 36px;
     text-align: center;
     color: #2e2f42;
+    line-height: 1.1;
 }
 
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
+    line-height: 1.2;
 }
 
 .desc-text {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+}
+.characteristic-team {
+    background-color: #FFF;
 }
 
 
@@ -126,18 +145,21 @@ button {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.1;
 }
 
 .subtitle-portfolio {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
+    line-height: 1.2;
 }
 
 .desc-portfolio {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
 }
 
 
@@ -147,21 +169,18 @@ button {
 }
 
 .logo-light {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
     color: #f4f4fd;
     text-decoration: none;
 }
 
 .footer-logo {
+    color: #4D5AE5;
+    font-family: 'Ralawey', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #4d5ae5;
+    line-height: 1.17px;
 }
 
 .footer-text {
-    font-weight: 400;
-    font-size: 16px;
     color: #f4f4fd;
 }
