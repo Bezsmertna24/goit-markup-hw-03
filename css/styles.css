@@ -7,6 +7,10 @@ body {
  ul {
     list-style-type: none;
  }
+
+ a {
+    text-decoration: none;
+ }
 /* logo */
 .logo-dark {
     font-family: "Raleway", sans-serif;
@@ -26,7 +30,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     color: #2e2f42;
-    text-decoration: none;
+
 }
 
 /* contacts */
@@ -38,7 +42,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
-    text-decoration: none;
 }
 
 
