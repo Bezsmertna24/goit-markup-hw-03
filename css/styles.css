@@ -11,51 +11,64 @@ body {
  a {
     text-decoration: none;
  }
+
 /* logo */
+
 .logo-dark {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #2e2f42;
 }
 
 .hero-logo {
-    color: #4d5ae5;
-    font-family: 'Ralawey', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-
 /* nav */
+
 .navigation-link {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2e2f42;
-
 }
 .navigation-link:hover,
 .navigation-link:focus {
     color: #404bbf;
 }
 
-/* contacts */
 .contacts {
-    font-style: normal;
+font-style: normal;
 }
 
 .contacts-link {
-    font-family: inherit;
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
-    color: #434455;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
+.contacts-link:hover,
+.contacts-link:focus {
+   color: #404bbf; 
+}
 
 /* hero section */
+
 .hero-section {
     background-color: #2e2f42;
 }
@@ -63,103 +76,120 @@ body {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    text-align: center;
-    color:#ffffff;
     line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 
 button {
     font-family: inherit;
 }
-
 .hero-btn {
     font-weight: 500;
-    color: #ffffff;
-    background-color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
     cursor: pointer;
-    text-transform: capitalize;
 }
 
-.hero-btn :hover,
-.hero-btn :focus {
-    background-color: #404BBF;
-    
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
 }
 
 
-/* adventages section */
+
+
+/* advaantages */
+
 .advantages {}
 
 .advantages-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     color: #2e2f42;
-} 
+}
 
 .advantages-subtitle {
     font-weight: 500;
     font-size: 20px;
-    color: #2e2f42;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-
 
 .text {
+    font-weight: 400;
     font-size: 16px;
-    color: #434455;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
-/* team section */
+/* team */
+
 .team {
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
 }
 
 .title-team {
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
-    color: #2e2f42;
     line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.characteristic-team {
+    background-color: #fff;
 }
 
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
-    color: #2e2f42;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .desc-text {
     font-weight: 400;
     font-size: 16px;
-    color: #434455;
     line-height: 1.5;
-}
-.characteristic-team {
-    background-color: #FFF;
-}
-
-
-/* portfolio section */
-.title-portfolio {
-    font-weight: 400;
-    font-size: 16px;
+    letter-spacing: 0.02em;
     color: #434455;
+}
+
+
+/* portfolio */
+.title-portfolio {
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .subtitle-portfolio {
     font-weight: 500;
     font-size: 20px;
-    color: #2e2f42;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .desc-portfolio {
     font-weight: 400;
     font-size: 16px;
-    color: #434455;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
@@ -169,18 +199,24 @@ button {
 }
 
 .logo-light {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
-    text-decoration: none;
 }
 
 .footer-logo {
-    color: #4D5AE5;
-    font-family: 'Ralawey', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17px;
+    color: #4d5ae5;
 }
 
 .footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
